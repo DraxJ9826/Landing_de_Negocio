@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
+
 /*font-family: "Bebas Neue", cursive;*/
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }
@@ -24,11 +25,11 @@ body{
 }
 
 .header{
-  background-image: url(/Imagenes/fotolocatario.jpg);
-  background-position: center ;
+  background-image: url(/Imagenes/LogoOsom.jpg);
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 20vh;
+  min-height: 8vh;
   display: flex;
   align-items: center;
 }
@@ -45,8 +46,8 @@ body{
 }
 
 .logo{
-  font-size: 24px;
-  color: #cf2d3a;
+  font-size: 50px;
+  color: #ff0217;
   font-weight:800;
   text-transform: uppercase;
 
@@ -88,11 +89,11 @@ body{
   margin-bottom: 45px;
 }
 
-.header-txt h1, spam, h3{
+.header-txt h1, span, h3{
   font-size: 110px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", sans-serif;
   color: red;
   margin-bottom: 15px;
 }
@@ -102,33 +103,33 @@ body{
 }
 
 .header-txt p{
-  color: gray;
+  color: rgb(255, 255, 255);
   padding: 0 250px;
   margin: 25px 0;
 }
 
 .btn-1{
   display: inline-block;
-  padding: 11px 25px;
+  padding: 1px 15px;
   background-color: #cf2d3a;
   color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 20px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", sans-serif;
   margin: 25px 0;
   border: 0;
 }
 
 .btn-1 :hover{
-  background-color: #cc9292;
+  background-color: #97e605;
 }
 
 .header-dir{
   display: flex;
   justify-content: space-between;
   text-align: center;
-margin-top: 20px ;
+
 }
 
 .dir h3{
@@ -155,7 +156,7 @@ margin-top: 20px ;
 
 .welcome-2{
   width: 50%;
-  padding: 150px 250px 150px 100 px;
+  padding: 150px 250px 150px 100px;
   background-color: #191919;
 
 }
@@ -165,19 +166,108 @@ h2{
   line-height: 100px;
   color:#FFFFFF;
   text-transform: uppercase;
-  font-family: "Bebas Neue", cursive;
-  margin-bottom: 20px;
-  letter-spacing: 0px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 50px;
 
 }
 
 p{
-  font-size: 16px;
+  font-size: 25px;
   color: #ffffff;
   margin: 25px 0;
 }
 
+
+
 .b1{
   color: #cf2d3a;
+
+}
+
+.services{
+  padding: 100px 0;
+  text-align: center;
+
+}
+
+.services-txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr{
+  border: 1px solid #cf2d3a;
+  width: 80px;
+}
+
+.services-txt p{
+  padding: 50px 150px;
+}
+
+.services-group{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0;
+}
+
+.services-1{
+  background-color: #070707;
+  padding: 50px 100px;
+  margin: 0 10px;
+  border-radius: 15px;
+}
+
+.services-1 img{
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.services-1 h3{
+  font-size: 40px;
+  color:#ffffff;
+
+}
+
+.services-1 a{
+  color: #ff0217;
+  font-size: 18px;
+}
+
+.prices{
+  display: flex;
+}
+
+.prices-1{
+  width: 50%;
+  padding: 150px 250px 150px 100px;
+  background-color: #191919;
+}
+
+.table{
+  margin: 50px 0;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+tr{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #afafaf;
+  margin-bottom: 15px;
+
+}
+
+td{
+  color: #cf2d3a;
+}
+
+.prices-2{
+  background-image: url(/Imagenes/ProductoPokemon.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
 
 }
