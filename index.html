@@ -9,7 +9,7 @@
   <body>
     <header class="header">
       <div class="menu container">
-        <a href="#" class="logo">OSOM Collectibles</a>
+        <a href="#" class="logo">OSOM Co.</a>
         <input type="checkbox" id="menu" />
         <label for="menu">
           <img src="Imagenes/LogoOsom.jpg" class="menu-icono" alt="" />
@@ -62,11 +62,20 @@
         <p class="b1">¡Todo para tu colecion!</p>
         <p>¡Tienda de juegos de cartas coleccionables, juegos de mesa y mucho más!</p>
         <p class="p1">Si buscas algun juego, mandanos un correo con el nombre del juego y te lo cotizamos</p>
-        <div class="campo-1">
-          <input class="campo" type="email" placeholder="ingresa tu correo">
-          <input type="submit" value="Enviar" class="btn-1">
-        </div>
-        <a href="#DatosOsom" class="btn-1">Nuestras Redes Sociales</a>
+        <form onsubmit="mostrarMensaje(event)">
+          <div class="campo-1">
+            <input class="campo" type="email" placeholder="ingresa tu correo">
+            <input type="submit" value="Enviar" class="btn-1">
+          </div>
+        </form>
+
+        <script>
+          function mostrarMensaje(event) {
+            event.preventDefault(); //Con esto no se manda nada realmente
+            alert("Gracias por tu interes, te responderemos a la brevedad");
+          }
+        </script>
+          <a href="#DatosOsom" class="btn-1">Nuestras Redes Sociales</a>
       </div>
     </section>
 
@@ -74,11 +83,7 @@
       <div class="services-txt" id="UltimasExp">
         <h2>Ultimas Expansiones</h2>
         <hr>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing
-           elit. Fugiat, illo eveniet. Non, ad maiores distinctio in
-            ipsam quidem eum laborum harum facere vero? Dolor
-             nam hic magni praesentium natus excepturi!
-          Texto de nuestros servicios</p>
+        <p>Estas son las ultimas expansiones y algunos juegos de mesa que tenemos</p>
       </div>
 
       <div class="services-group">
@@ -164,29 +169,42 @@
         <div class="personal-1">
           <img src="/Imagenes/fotolocatario.jpg" alt="" />
           <h3>Roberto Calderon</h3>
-          <p>Datos Roberto</p>
-          <a href="#">Saber más</a>
+          <p>Fundador y dueño de de OSOM Collectibles
+            <br>
+            "Desde pequeño me encanto Yu-gi-oh! tanto con el anime como en mi temporada de preparatoria en las tiendas locales con el juego de cartas, desde ese entonces me enamore de los juegos de cartas coleccionables y ahora tengo mi propia tienda"
+          </p>
+          <a href="#"></a>
         </div>
-        <div class="personal-1">
+        <!-- <div class="personal-1">
           <img src="/Imagenes/fotoManuel.jpg" alt="" />
-          <h3>Luis CC</h3>
-          <p>Datos Manuelito</p>
-          <a href="#">Saber más</a>
-        </div>
+          <h3>Luis Cruz</h3>
+          <p>Datis Luis</p>
+          <a href="#"></a>
+        </div> -->
         <div class="personal-1">
           <img src="/Imagenes/FotoHector.jpg" alt="" />
           <h3>Hector Trueba</h3>
-          <p>Datos 12 casas</p>
-          <a href="#">Saber más</a>
+          <p>Jugador casual de Yu-Gi-Oh! y Pokemon, empleado de OSOM Collectibles
+            <br>
+            "Me encanta el juego de cartas de Pokemon, me encanta la estrategia y la coleccion de cartas"
+          </p>
+          <a href="#"></a>
         </div>
       </div>
-      <a href="#" class="btn-1">Info</a>
+      <a href="#" class="btn-1"></a>
     </section>
 
     <footer>
       <div class="footer-bg" id="DatosOsom">
         <h3>Contactanos</h3>
         <h1>Redes sociales</h1>
+        <div class="footer-group">
+          <div class="footer-1">
+            <a href="https://www.facebook.com/OsomCollectibles" target="_blank">
+              <img src="/Imagenes/FbLogo.png" alt="" /></a>
+              <a href="https://www.instagram.com/osomcollectibles" target="_blank">
+              <img src="/Imagenes/IgLogo.png" alt="" /></a>
+          </div>
       </div>
       <div class="footer-txt" >
         <p>Copyright © by Joshua Rivera</p>

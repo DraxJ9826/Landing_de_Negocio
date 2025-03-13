@@ -76,7 +76,8 @@ body{
 }
 
 .menu-icono{
-  width: 25px;
+  width: 70px;
+  height: auto;
 }
 
 .menu label{
@@ -354,8 +355,17 @@ textarea{
 
 .footer-txt{
   text-align: center;
-  padding: 10px;
+  padding: 200px;
   background-color: #070707;
+}
+
+.footer-bg h1{
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.footer-1 img{
+  width: 50px;
 }
 
 
@@ -389,7 +399,9 @@ textarea{
   }
 
   .header{
-    min-height: 0vh;
+    min-height: auto;
+    padding: 50px 0;
+
   }
 
   .header-content{
@@ -496,6 +508,14 @@ textarea{
   .footer-bg{
     padding: 30px;
 
+  }
+  .footer-bg h1{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+
+  .footer-1 img{
+    width: 50px;
   }
 
   textarea{
